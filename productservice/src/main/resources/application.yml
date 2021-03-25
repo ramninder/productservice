@@ -1,0 +1,9 @@
+couponService:
+  url: http://coupon-app:9091/couponapi/coupons/
+server:
+  port: 9090
+spring:
+  datasource:
+    password: test1234
+    url: jdbc:mysql://docker-mysql:3306/mydb
+    username: root
